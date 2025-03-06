@@ -1,0 +1,36 @@
+# Ignore virtual environment files
+venv/
+env/
+.venv/
+
+# Ignore SQLite database file (if you don't want to track it)
+database.db
+
+# Ignore Python cache and compiled files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.py.class
+
+# Ignore IDE-specific files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Ignore environment variables file
+.env
+
+# Ignore Flask debug log
+flask.log
+
+# Ignore pipenv files
+Pipfile
+Pipfile.lock
+
+# Ignore macOS-specific files
+.DS_Store
+
+# Ignore Windows-specific files
+Thumbs.db
